@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: 90% -25%;
+}
+.header{
+    display: flex;
+   max-width: 90%;
+justify-content: space-around;
+padding: 20px;
+}
+.nav-links ul li{
+    display: inline-block;
+
+}
+.logo img{
+    margin-top: 20px;
+}
+.nav-links ul li a{
+    color:gray;
+    font-family:'Franklin Gothic light', 'Arial Narrow', Arial, sans-serif;
+    padding:10px 15px;
+    text-decoration: none;
+}
+.header button{
+background-color: orangered;
+border-radius: 30px;
+padding: 0 40px;
+border:none;
+}
+.header button a{
+    color: white;
+    text-decoration: none;
+}
+.container1{
+    max-width: 100%;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 70px;
+}
+.container1 h1{
+    color: rgb(37, 45, 81);
+    font-size: 50px;
+    font-family: 'Franklin Gothic light', 'Arial Narrow', Arial, sans-serif;
+}
+.container1 p{
+    max-width: 90%;
+    justify-content: space-around;
+    display: flex;
+    color:grey;
+    font-family: 'Franklin Gothic light', 'Arial Narrow', Arial, sans-serif;
+}
+.container1-text button{
+    background-color: orangered;
+border-radius: 30px;
+padding: 20px 40px;
+border:none;
+margin: 20px 0 0 0;
+}
+.container1-text button a{
+    color: white;
+    text-decoration: none;
+}
+.manage{
+    max-width: 100%;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 70px;
+    }
+.manage h1{
+    max-width: 90%;
+    justify-content: space-around;
+    display: flex;
+        font-family: 'Franklin Gothic light', 'Arial Narrow', Arial, sans-serif;
+}
+.manage{
+    max-width: 90%;
+    justify-content: space-around;
+    display: flex;
+    font-family: 'Franklin Gothic light', 'Arial Narrow', Arial, sans-serif;
+}
+.manage p{
+color: gray;
+}
+.list{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+.list button{
+    background-color: orangered;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border:none;
+    color: white;
+    font-size: 20px;
+        }
+    .list-col h1{
+margin: 0;
+padding: 0;
+font-size: 20px;
+text-align: left;
+justify-content: left;
+    }
+.testimonial{
+    text-align: center;
+    padding: 50px 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.testimonial-row{
+    display: flex;
+   gap: 20px;
+   margin-top: 70px;
+}
+.testimonial-col{
+    background-color: rgba(236, 234, 234, 0.753);
+}
+.testimonial-col img{
+    width: 100px;
+    margin-top: -50px;
+}
+.testimonial button {
+    background-color: orangered;
+    border-radius: 30px;
+    padding: 10px 30px;
+    border:none;
+    margin: 50px;
+}
+.testimonial button a{
+    color: white;
+    text-decoration: none;
+
+}
+.untouchable{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: orangered;
+    height: 100%;
+    margin: 0;
+}
+.untouchable h1{
+   margin-left:100px;
+   color: white;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.untouchable button {
+    background-color: white;
+border-radius: 30px;
+padding: 15px 40px;
+border:none;
+height: 100%;
+}
+.untouchable button a{
+    color: orangered;
+    padding: 0;
+    text-decoration: none;
+    margin: 0;
+}
+.footer{
+    display: flex;
+justify-content: space-around;
+padding: 20px;
+background-color: black;
+}
+.footer-links ul li{
+list-style-type: none;
+padding: 5px 0;
+}
+.footer-links ul li a{
+color: white;
+    font-family:'Franklin Gothic light', 'Arial Narrow', Arial, sans-serif;
+    padding:10px 15px;
+    text-decoration: none;
+}
+.message input {
+    border-radius: 15px;
+    padding: 10px ;
+    border: none;
+}
+.message button {
+    background-color: orangered;
+    border-radius: 30px;
+    padding: 10px 30px;
+    border:none;
+    /* margin: 50px; */
+}
+.message button a{
+    color: white;
+    text-decoration: none;
+}
+.message p{
+    color: white;
+    margin: 50px 0 0 30px;
+}
+.icons{
+    margin: 50px 0 0 0;
+}
